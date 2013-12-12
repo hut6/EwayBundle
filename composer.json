@@ -1,0 +1,29 @@
+{
+    "name": "hut6/eway-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 payment bundle for use with the provider 'eWay'",
+    "keywords": ["eway"],
+    "homepage": "http://hut6.github.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Regan Lawton",
+            "email": "regan@dwd.com.au"
+        },
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": { "Eway\\PaymentBundle": "" }
+    },
+    "target-dir": "Eway/PaymentBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
