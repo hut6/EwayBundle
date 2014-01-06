@@ -5,13 +5,13 @@
     "authors": [
         {
             "name": "reganlawton",
-            "email": "reganlawton92@gmail.com"
+            "email": "regan@hut6.com.au"
         }
     ],
     "autoload": {
-        "psr-0": { "Eway\\PaymentBundle": "" }
+        "psr-0": { "Hut6\\Eway\\PaymentBundle": "" }
     },
-    "target-dir": "Eway/PaymentBundle",
+    "target-dir": "Hut6/Eway/PaymentBundle",
     "minimum-stability": "dev",
     "require": {
 
