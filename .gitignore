@@ -1,0 +1,38 @@
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.espressostorage
+
+# Dreamweaver added files
+_notes
+dwsync.xml
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+.idea
+@eaDir
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.cagefs/
+.cl.selector/
+.composer/
+.contactemail
+.cpanel/
+.gemrc
+.gitconfig
+.lastlogin
+.ssh/
