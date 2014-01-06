@@ -6,7 +6,7 @@
  * Time: 4:36 PM
  */
 
-namespace Eway\PaymentBundle\Client;
+namespace Hut6\Eway\PaymentBundleClient;
 
 
 class Client {

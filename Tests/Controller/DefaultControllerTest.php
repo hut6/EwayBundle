@@ -1,6 +1,6 @@
 <?php
 
-namespace Eway\PaymentBundle\Tests\Controller;
+namespace Hut6\Eway\PaymentBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

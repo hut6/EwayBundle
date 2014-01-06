@@ -1,6 +1,6 @@
 <?php
 
-namespace Eway\PaymentBundle\DependencyInjection;
+namespace Hut6\Eway\PaymentBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
