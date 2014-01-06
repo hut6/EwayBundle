@@ -9,7 +9,7 @@
         }
     ],
     "autoload": {
-        "psr-0": { "hut6\\ewaybundle": "" }
+        "psr-0": { "Eway\\PaymentBundle": "" }
     },
     "target-dir": "Eway/PaymentBundle",
     "minimum-stability": "dev",
