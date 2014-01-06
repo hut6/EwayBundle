@@ -17,7 +17,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new Eway\PaymentBundle\EwayPaymentBundle(),
+        new Hut6\Eway\PaymentBundle\EwayPaymentBundle(),
     );
 }
 ```
@@ -48,5 +48,16 @@ $pay->setOption1("");
 $pay->setOption2("");
 $pay->setOption3("");
 $pay->pay();
+
+```
+
+All fields are required, however not all are required byway and can be blank.
+
+``` yml
+// app/config/config.php
+services:
+    // ...
+    eway:
+        class: Hut6\Eway\PaymentBundle\EwayPaymentBundle
 
 ```
