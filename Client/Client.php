@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: reganlawton
- * Date: 26/11/13
- * Time: 4:36 PM
- */
 
-namespace Hut6\Eway\PaymentBundleClient;
+namespace Hut6\Eway\PaymentBundle\Client;
 
 
 class Client {
