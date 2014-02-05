@@ -1,38 +1,31 @@
+# Bootstrap
+app/bootstrap*
 
-# OS or Editor folders
-.DS_Store
-Thumbs.db
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-*.espressostorage
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+web/uploads/*
+web/bundles/*
+public_html/uploads/*
+public_html/bundles/*
+public_html/media/*
+www/*
+web/config.php
 
-# Dreamweaver added files
-_notes
-dwsync.xml
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
 
-# Komodo
-*.komodoproject
-.komodotools
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*.sass-cache
+*.log
 
-# Folders to ignore
-.hg
-.svn
-.CVS
-.idea
-@eaDir
-.bash_history
-.bash_logout
-.bash_profile
-.bashrc
-.cagefs/
-.cl.selector/
-.composer/
-.contactemail
-.cpanel/
-.gemrc
-.gitconfig
-.lastlogin
-.ssh/

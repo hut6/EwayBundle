@@ -732,11 +732,11 @@ class Client {
      */
     public function setCardExpiry($month, $year)
     {
-        if((intval($month) < 1) OR (intval($month) > 12))
+        if((intval($month) < 1) || (intval($month) > 12))
         {
             throw new \ErrorException('Card expiry month is invalid.');
         }
-        elseif((intval($year) < 0) OR (intval($year) > 99))
+        elseif((intval($year) < 0) || (intval($year) > 99))
         {
             throw new \ErrorException('Card expiry year is invalid.');
         }
@@ -1250,12 +1250,12 @@ class Client {
      */
     public function pay()
     {
-        if( !isset($this->customerID) OR
-            !isset($this->paymentAmount) OR
-            !isset($this->cardHoldersName) OR
-            !isset($this->cardNumber) OR
-            !isset($this->cardExpiryMonth) OR
-            !isset($this->cardExpiryYear) OR
+        if( !isset($this->customerID) ||
+            !isset($this->paymentAmount) ||
+            !isset($this->cardHoldersName) ||
+            !isset($this->cardNumber) ||
+            !isset($this->cardExpiryMonth) ||
+            !isset($this->cardExpiryYear) ||
             !isset($this->cvn))
         {
             throw new \ErrorException('Not all mandatory fields have been set.');
@@ -1268,12 +1268,10 @@ class Client {
 
         if($this->transactionStatus == 'True')
         {
-//            echo "TRUE";
             return TRUE;
         }
         else
         {
-//            echo "FALSE";
             return FALSE;
         }
     }
@@ -1483,7 +1481,7 @@ class Client {
     {
         $cardNumber = preg_replace('/[^\d]/', '', $cardNumber);
 
-        if((strlen($cardNumber) < 16) OR (strlen($cardNumber) > 20))
+        if((strlen($cardNumber) < 16) || (strlen($cardNumber) > 20))
         {
             return FALSE;
         }
@@ -1491,8 +1489,9 @@ class Client {
         $cardNumber = str_split($cardNumber);
         $checkDigit = (int) end($cardNumber);
         $sum = 0;
+        $count = count($cardNumber);
 
-        for($i = 1; $i < count($cardNumber); $i++)
+        for($i = 1; $i < $count; $i++)
         {
             if($i&1)
             {
