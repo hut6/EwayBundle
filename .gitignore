@@ -28,4 +28,6 @@ app/config/parameters.yml
 *.vi
 *.sass-cache
 *.log
+.idea
+
 
