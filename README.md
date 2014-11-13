@@ -1,7 +1,7 @@
 EwayBundle
 ==========
 
-Symfony2 payment bundle for use with the provider "eWay".
+Symfony2 wrapper bundle for use with the provider "eWay", based on [https://github.com/samuelwilliams/eWay-PHP-API](https://github.com/samuelwilliams/eWay-PHP-API).
 
 
 Install
