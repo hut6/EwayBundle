@@ -940,7 +940,7 @@ class Client {
      */
     public function setCustomerEmail($email)
     {
-        if(!preg_match('/^[\w-\.]+@(?:[\w]+\.)+[a-zA-Z]{2,4}$/', $email))
+        if(!preg_match('/^[a-zA-Z0-9_.*+-]+@[a-zA-Z0-9*-]+\.[a-zA-Z0-9-.]+$/', $email))
         {
             throw new \ErrorException('Invalid email address.');
         }
