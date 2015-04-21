@@ -1,6 +1,6 @@
 {
     "name": "hut6/ewaybundle",
-    "description": "Symfony2 payment bundle for use with the provider 'eWay'",
+    "description": "Symfony2 payment wrapper for the provider 'eWay'",
     "license": "MIT",
     "authors": [
         {
